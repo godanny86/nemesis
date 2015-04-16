@@ -12,7 +12,7 @@
 	<groupId>org.ride</groupId>
 	<artifactId>nemesis</artifactId>
 	<packaging>pom</packaging>
-	<version>0.0.7-SNAPSHOT</version>
+	<version>0.0.8</version>
 	<description>nemesis</description>
 
 	<modules>
@@ -248,7 +248,7 @@
 
 	<scm>
 		<developerConnection>scm:git:https://github.com/godanny86/nemesis.git</developerConnection>
-		<tag>HEAD</tag>
+		<tag>nemesis-0.0.8</tag>
 	</scm>
 	<profiles>
 		<!-- ====================================================== -->

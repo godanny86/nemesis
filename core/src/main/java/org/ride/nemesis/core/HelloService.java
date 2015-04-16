@@ -19,6 +19,7 @@ import aQute.bnd.annotation.ConsumerType;
 
 /**
  * A simple service interface
+ * updated some comments
  */
 @ConsumerType
 public interface HelloService {

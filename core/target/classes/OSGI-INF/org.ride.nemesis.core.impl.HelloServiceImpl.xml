@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component immediate="true" name="org.ride.nemesis.core.impl.HelloServiceImpl">
+        <implementation class="org.ride.nemesis.core.impl.HelloServiceImpl"/>
+        <service servicefactory="false">
+            <provide interface="org.ride.nemesis.core.HelloService"/>
+        </service>
+        <property name="service.vendor" value="Adobe"/>
+        <property name="service.pid" value="org.ride.nemesis.core.impl.HelloServiceImpl"/>
+        <reference name="settings" interface="org.apache.sling.settings.SlingSettingsService" cardinality="1..1" policy="static" bind="bindSettings" unbind="unbindSettings"/>
+    </scr:component>
+</components>

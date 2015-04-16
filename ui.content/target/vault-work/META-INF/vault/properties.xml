@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>nemesis - UI content</comment>
+<entry key="createdBy">dgordon</entry>
+<entry key="name">nemesis.ui.content</entry>
+<entry key="created">2015-04-16T07:33:50.058-0400</entry>
+<entry key="groupId">org.ride</entry>
+<entry key="version">0.0.1-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">org.ride</entry>
+<entry key="description">UI content package for nemesis</entry>
+<entry key="artifactId">nemesis.ui.content</entry>
+<entry key="path">/etc/packages/org.ride/nemesis.ui.content.zip</entry>
+</properties>

@@ -248,7 +248,7 @@
 
 	<scm>
 		<developerConnection>scm:git:https://github.com/godanny86/nemesis.git</developerConnection>
-		<tag>production</tag>
+		<tag>HEAD</tag>
 	</scm>
 	<profiles>
 		<!-- ====================================================== -->

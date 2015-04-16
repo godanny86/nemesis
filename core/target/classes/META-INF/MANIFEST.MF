@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1429184029012
+Bnd-LastModified: 1429184340588
 Build-Jdk: 1.7.0_67
 Built-By: dgordon
 Bundle-Description: Core bundle for nemesis
@@ -15,6 +15,7 @@ Import-Package: javax.servlet,org.apache.sling.api;version="[2.3,3)",org
  g.apache.sling.commons.osgi;version="[2.2,3)",org.apache.sling.settings
  ;version="[1.3,2)",org.osgi.service.event;version="[1.2,2)",org.ride.ne
  mesis.core;version="[1.0,1.1)",org.slf4j;version="[1.5,2)"
+Originally-Created-By: Apache Maven Bundle Plugin
 Provide-Capability: osgi.service;effective:=active;objectClass="java.lan
  g.Runnable";scheduler.expression="*/30 * * * * ?";scheduler.concurrent=
  false;service.vendor=Adobe

@@ -19,23 +19,22 @@ import org.apache.felix.scr.annotations.Component;
 import org.apache.felix.scr.annotations.Reference;
 import org.apache.felix.scr.annotations.Service;
 import org.apache.sling.settings.SlingSettingsService;
-
 import org.ride.nemesis.core.HelloService;
 
 /**
- * One implementation of the {@link HelloService}. Note that
- * the settings service is injected, not retrieved.
+ * One implementation of the {@link HelloService}. Note that the settings
+ * service is injected, not retrieved.
  */
 @Service(value = HelloService.class)
 @Component(immediate = true)
 public class HelloServiceImpl implements HelloService {
 
-	@Reference
-	private SlingSettingsService settings;
-	
-	@Override
-	public String getMessage() {
-		return "Hello World, this is instance " + settings.getSlingId();
-	}
+    @Reference
+    private SlingSettingsService settings;
+
+    @Override
+    public String getMessage() {
+        return "V10 Hello World, this is instance " + settings.getSlingId();
+    }
 
 }
